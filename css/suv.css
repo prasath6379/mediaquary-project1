@@ -1,0 +1,235 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Old Standard TT", serif;
+}
+
+body
+{
+    height: 160vh;
+    width: 100%;
+    background-image: url("./suv\ main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.parent
+{
+    /* border: 1px solid; */
+    height: 50vh;
+    width: 90%;
+    margin-left: 5%;
+    /* position: absolute; */
+    display: flex;
+    margin-top: 2%;
+    box-shadow: 10px 15px 10px black;
+}
+
+.parent .box
+{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 50%;
+    background-image: url("./suv1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding-bottom: 5%; */
+    /* margin-top: 3%; */
+}
+
+.parent .box1
+{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 50%;
+    margin-left: 5%;
+    color: white;
+    font-weight: bold;
+    align-content: justify;
+    backdrop-filter: blur(10px);
+}
+
+.parent1
+{
+    /* border: 1px solid; */
+    height: 50vh;
+    width: 90%;
+    margin-left: 5%;
+    /* position: absolute; */
+    display: flex;
+    margin-top: 2%;
+    box-shadow: 10px 15px 10px black;
+}
+
+.parent1 .box
+{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 50%;
+    color: skyblue;
+    font-weight: bold;
+    align-content: justify;
+    /* padding-bottom: 5%; */
+    /* margin-top: 3%; */
+    backdrop-filter: blur(10px);
+}
+
+.parent1 .box1
+{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 50%;
+    background-image: url("./suv3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;;
+    margin-left: 5%;
+    color: white;
+    font-weight: bold;
+    align-content: justify;
+}
+
+
+.parent2
+{
+    /* border: 1px solid; */
+    height: 50vh;
+    width: 90%;
+    margin-left: 5%;
+    /* position: absolute; */
+    display: flex;
+    margin-top: 2%;
+    box-shadow: 10px 15px 10px black;
+}
+
+.parent2 .box
+{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 50%;
+    background-image: url("./gla2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding-bottom: 5%; */
+    /* margin-top: 3%; */
+}
+
+.parent2 .box1
+{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 50%;
+    margin-left: 5%;
+    color: white;
+    font-weight: bold;
+    align-content: justify;
+    backdrop-filter: blur(10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:576px)
+{
+   .parent
+   {
+    flex-direction: column;
+    height: 40vh;
+    width: 110%;
+    /* margin-left: 5%; */
+    position: relative;
+    margin-left: 5%;
+   }
+
+   .parent .box
+   {
+    height: 50%;
+    width: 80%;
+    margin-left: 0%;
+    position: absolute;
+   }
+
+   .parent .box1
+   {
+    height: 50%;
+    width: 80%;
+    margin-left: 0%;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 48%;
+   }
+
+   .parent1
+   {
+    flex-direction: column;
+    height: 40vh;
+    width: 110%;
+    /* margin-left: 5%; */
+    position: relative;
+    margin-top: 14%;
+    margin-left: 6%;
+   }
+
+   .parent1 .box
+   {
+    height: 50%;
+    width: 80%;
+    margin-left: 0%;
+    position: absolute;
+    overflow: hidden;
+
+   }
+
+   .parent1 .box1
+   {
+    height: 50%;
+    width: 80%;
+    margin-left: 0%;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 47%;
+   }
+
+
+   .parent2
+   {
+    flex-direction: column;
+    height: 40vh;
+    width: 110%;
+    /* margin-left: 5%; */
+    position: relative;
+    margin-left: 6%;
+    margin-top: 28%;
+   }
+
+   .parent2 .box
+   {
+    height: 50%;
+    width: 80%;
+    margin-left: 0%;
+    position: absolute;
+   }
+
+   .parent2 .box1
+   {
+    height: 50%;
+    width: 80%;
+    margin-left: 0%;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 53%;
+   }
+}
+
